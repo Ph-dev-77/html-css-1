@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1 {  /*box-level*/
+
+            /*para transfomar seu h1 em inline use: display: inline;*/
+
+            background-color: lightgreen;
+            height: 300px;
+            width: 300px;
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkgreen;
+
+            padding: 10px 10px 0px 10px; /*simplificação*/
+
+            margin: 20px;/*simplificação*/
+            
+            
+
+        }
+
+        h1:hover {
+            outline: 8px dashed rgb(60, 60, 82);/*simplificação*/
+            box-shadow: 2px 2px 5px rgba(0, 0, 255, 0.158);
+            transition: 1s;
+
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2em;
+            color: rgba(255, 255, 255, 0.473);
+            background-color: rgba(0, 0, 0, 0.452);
+            border-color: rgb(0, 0, 0);
+            border-radius: 10px;
+        }
+
+        a {
+            background-color: lightgreen;
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkgreen;
+
+            padding-top: 0.5px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/aulas/modulo-2-2/modulos/capitulo-16-aula-02-modelo-de-caixas-na-pratica/" target="_blank">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p>
+</body>
+</html>

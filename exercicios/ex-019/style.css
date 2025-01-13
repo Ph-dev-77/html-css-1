@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/*
+ Em HTML é id = Em CSS é #
+ Em HTML é class = Em CSS é .
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Butcherman&family=Chokokutai&family=Creepster&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Henny+Penny&family=Mystery+Quest&family=Nosifer&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Puddles&family=Sixtyfour+Convergence&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #F2F2F2;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+}
+
+
+h1 {
+  color: #292929;
+}
+
+h1#principal {
+    color: #0D0D0D;
+    text-align: center;
+    background-color: #8C8B8B;
+    margin: auto;
+    border-radius: 15px;
+}
+
+
+h2 {
+  color: #002c52;
+}
+
+
+h2.basico {
+   color: #01335f;
+   font-weight: bold;
+}
+
+
+h2.intermediario {
+   color: #003c70;
+}
+
+
+h2.avancado {
+   color: #01539b;
+}
+
+.destaque {
+  background-color: #8C8B8B;
+  border-radius: 15px;
+}

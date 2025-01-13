@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+
+body {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    background-color: #18181b;
+    color: aliceblue;
+}
+
+p {
+    font-family: "DM Serif Text", serif;
+    font-weight: 500;
+    font-size: 18px;
+    font-style: italic;
+}
+
+header {
+    text-align: center;
+}
+
+.flex {
+    margin: 40px 20px 0px 95px;
+}
+
+.imagem {
+    display: inline-block;
+    padding: 10px 10px;
+    margin: 40px 40px 0px 20px;
+    width: 500px;
+    height: 240px;
+    background-size: cover;
+    background-position: 65% 0%;
+    transition: 3.5s;
+    position: relative;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.imagem:hover {
+    width: 495px;
+    height: 235px;
+    transition: 1s;
+}
+
+.acessar {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, darkgrey, white);
+    padding: 5px 10px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    justify-content: center;
+    text-decoration: none;
+    transition: 0.3s ease;
+    position: relative;
+    bottom: -160px;
+    margin: 0px 0px 0px 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.acessar::after, .acessar::before {
+    content: "";
+    position: absolute;
+    opacity: 0.3;
+    background: white;
+    border-radius: inherit;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.3s ease;
+}
+
+.acessar:hover{
+    transform: translate(-12px, -12px);
+}
+
+.acessar:hover::after{
+    transform: translate(6px, 6px);
+}
+
+.acessar:hover::before{
+    transform: translate(12px, 12px);
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+        /*
+           #   = id
+           .   = class
+           :   = pseudo-class
+           ::  = pseudo-element
+           >   = children
+        
+
+        */
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: darkred
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: black;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         
+        }
+    
+        a:active {
+            color: blue;
+        }
+
+        .especial::before {
+            content: '☢';
+             text-decoration: none;
+             font-weight: normal;
+             color: darkgoldenrod;
+
+        }
+
+        .especial::after {
+             content: '☢';
+             text-decoration: none;
+             font-weight: normal;
+             color: orangered;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links </h1>
+    <ul>
+        <li><a href="https://www.instagram.com/chris.rlk7x/" target="_blank">Instagram</a></li>
+        <li><a href="https://www.youtube.com/@dorflexhighilghts957/videos" target="_blank" class="especial">Canal do Youtube</a></li>
+        <li><a href="https://www.linkedin.com/in/christopher-nithigale-596890317/" target="_blank">Site do Linkedin</a></li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,6 @@
+.interface .titulo > {
+    text-align: center;
+    justify-content: space-between;
+    color: blue;
+    font-weight: 700;
+}
