@@ -49,13 +49,15 @@ h1 {
 .comum {
     font-size: 4vw;
     margin-left: 75px;
+    margin-top: 100px;
     margin-bottom: 50px;
 }
 
 .fundo {
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.311);
-    font-size: 4vw;
+    background-color: rgba(0, 0, 0, 0.233);
+    text-shadow: 1px 1px  0px black;
+    font-size: 3.5vw;
     margin: 10px 0px 0px 88px;
     padding: 15px;
     color: white;
@@ -65,24 +67,29 @@ h1 {
 .img {
     margin-left: -7.6px;
     margin-right: -3px;
-    height: 115vh;
+    height: 99.5vh;
     width: 100.8%;
     background-image: url('imagens/background001.jpg');
     background-position: right center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.548);
+    margin-bottom: 2em;
 }
 
 section {
     line-height: 2;
     padding-top: 10vh;
     padding-bottom: 10vh;
-    font-size: 3.5vw;
+    font-size: 2vw;
     margin-left: 40px;
     margin-bottom: 50px;
     font-family: var(--fonte3);
+}
+
+section > p {
+    padding-bottom: 1em;
 }
 
 .imagem {
@@ -95,13 +102,14 @@ section {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px;
+    margin-bottom: 2em;
 }
 
 
 
 
 footer {
-    margin: 0px 0px 0px 0px;
     font-size: 1vw;
     background-color: black;
     color: white;
@@ -123,6 +131,5 @@ a:hover {
 footer:hover {
     background-color: black;
     color: white;
-    margin: 0px -8px -40px -8px;
     text-align: center;
 }
