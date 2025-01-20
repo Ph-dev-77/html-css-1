@@ -1,135 +1,99 @@
-@charset "UTF-8";
+@charset 'UTF-8';
 
-@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
-
-:root {
-    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
-    --fonte2: "Passion One", cursive;
-    --fonte3: "Sriracha", cursive;
+*{
+    margin: 0px;
+    padding: 0px;
 }
 
-html, body {
+html, body{
     min-height: 100vh;
-    background-color: lightgray;
-    font-family: var(--fonte1);
+    background-color: darkgray;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+
+}
+a:hover{
+    text-decoration: underline;
 }
 
-header {
+header{
     background-color: black;
     color: white;
     text-align: center;
-    margin: 0px -8px 0px -10px;
-    padding-bottom: 10px;
-    font-family: var(--fonte2);
 }
 
-h1 {
-    margin-top: -8px;
+header > h1{
+    font-family: 'Passion One', cursive;
     font-variant: small-caps;
-    padding-top: 30px;
-    font-weight: 400;
-    font-style: normal;
     font-size: 10vw;
-    font-weight: bold;
+    padding-top: 50px;
+
+}
+header > p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    padding-bottom: 50px;
 }
 
-.subtitulo {
-   font-family: var(--fonte2);
-   text-decoration: none;
-   color: white;
-   font-size: 2.5vw;
-}
-
-.subtitulo:hover {
-    text-decoration: underline;
-}
-
-.comum {
-    font-size: 4vw;
-    margin-left: 75px;
-    margin-top: 100px;
-    margin-bottom: 50px;
-}
-
-.fundo {
-    display: inline-block;
-    background-color: rgba(0, 0, 0, 0.233);
-    text-shadow: 1px 1px  0px black;
+section{
+    font-family: 'Sriracha', cursive;
     font-size: 3.5vw;
-    margin: 10px 0px 0px 88px;
-    padding: 15px;
-    color: white;
-    border-radius: 20px;
-}
-
-.img {
-    margin-left: -7.6px;
-    margin-right: -3px;
-    height: 99.5vh;
-    width: 100.8%;
-    background-image: url('imagens/background001.jpg');
-    background-position: right center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.548);
-    margin-bottom: 2em;
-}
-
-section {
-    line-height: 2;
+    line-height: 2em;
     padding-top: 10vh;
+    padding-left: 60px;
     padding-bottom: 10vh;
-    font-size: 2vw;
-    margin-left: 40px;
-    margin-bottom: 50px;
-    font-family: var(--fonte3);
+}
+section > p{
+    padding-bottom: 2em;
+}
+section.comum{
+    background-color: white;
+    color: black;
+}
+main .imagem{
+    color: white;
+    background-color: darkgray;
+    box-shadow:  6px 6px 13px 0px rgba(0, 0, 0, 0.543);
+}
+section.imagem > p{
+    display: inline-block;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.311);
+    text-shadow: 1px 1px 0px black;
+    border-radius: 10px;
 }
 
-section > p {
-    padding-bottom: 1em;
-}
-
-.imagem {
-    margin-left: -0px;
-    margin-right: -3px;
-    height: 115vh;
-    width: 100%;
-    background-image: url('imagens/background002.jpg');
-    background-position: right center;
-    background-repeat: no-repeat;
+#imagem01{
+    background-image: url(imagens/background001.jpg);
     background-attachment: fixed;
     background-size: cover;
-    box-shadow: inset 6px 6px 13px 0px;
-    margin-bottom: 2em;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+#imagem02{
+    background-image: url(imagens/background002.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.534);
 }
 
 
-
-
-footer {
-    font-size: 1vw;
+footer{
     background-color: black;
     color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    text-decoration: none;
-}
-
-a {
-    font-size: 1vw;
-    text-decoration: none;
-    color: white;
-}
-
-a:hover {
-    text-decoration: underline;
-    color: white;
-}
-
-footer:hover {
-    background-color: black;
-    color: white;
-    text-align: center;
+    font-size: 1em;
+    padding: 10px;
 }
