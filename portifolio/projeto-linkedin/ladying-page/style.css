@@ -16,7 +16,7 @@
 
 body {
     font-size: 100%;
-    background-image: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    background-image: linear-gradient(68.15deg, #2F2325 16.62, #8E5D52 85.61%);
     background-repeat: no-repeat;
     height: 100vh;
 }
@@ -55,13 +55,13 @@ body {
 }
 
 .cabecalho-texto:hover {
-    color: white;
+    color: #fff2e7;
     font-family: var(--fonte2);
     font-size: 20px;
     text-decoration: none;
     transform: translateY(-5px);
-    transition: all 0.4s;
-    opacity: 1;
+    transition: all 1s;
+    opacity: 0.6;
 }
 
 .conteudo {
@@ -80,7 +80,7 @@ body {
     font-family: var(--fonte1);
     font-weight: 400;
     font-size: 50px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .conteudo-subtitulo {
@@ -106,11 +106,12 @@ body {
 .conteudo-button:hover {
     font-size: 20px;
     text-decoration: none;
-    background-color: rgba(236, 214, 196, 0.53);
+    background-color: #ECD6C4;
     border: none;
     cursor: pointer;
     padding: 10px;
     border-radius: 10px;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.562);
     transform: scale(1.1, 1.1);
     transition: 1s;
 }
@@ -118,10 +119,10 @@ body {
 .conteudo-secundario {
     width: 700px;
     margin: auto;
-    color: white;
+    color: #fff2e7;
 }
 
-.conteudo-secundario-titulo{
+.conteudo-secundario-titulo {
     font-family: var(--fonte2);
     width: 350px;
     border-top: 0.4px solid #fff2e7;
@@ -140,7 +141,7 @@ body {
 }
 
 .rodape {
-    border-top: 1px solid white;
+    border-top: 1px solid #fff2e7;
     padding: 25px;
     text-align: center;
 }
