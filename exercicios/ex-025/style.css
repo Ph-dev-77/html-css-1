@@ -1,0 +1,40 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    background-color: rgb(0, 64, 128);
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid lightblue;
+    text-align: left;
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+input {
+    border-radius: 5px;
+}
+
+.buttons {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.button {
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid lightblue;
+}
+
+.button:hover {
+    background-color: lightblue;
+    transition: 1s;
+}
